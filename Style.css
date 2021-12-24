@@ -32,3 +32,7 @@
 .body{
     background-color: black;
 }
+p{
+    color: white;
+    font-size: 7px;
+}
