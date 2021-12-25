@@ -12,8 +12,6 @@
     width: 100%;
     overflow: hidden;
 
-
-    
 }
 .navbar a{
     color: white;
@@ -40,4 +38,7 @@
     font-size: 2rem;
     text-align: justify;
     margin: 2rem;    
+}
+#contact{
+    color: white;
 }
