@@ -43,19 +43,19 @@ html{
     color: white;
     font-size: 2rem;
     text-align: justify;
-    margin: 2rem;  
+    margin: 1rem;  
     width: 50%;
     display: inline-block;
     justify-content: right;
-    display: flex;
-    
-
-
+    padding: 20%;
 }
 .trollimage {
-    width: 50vw;
+    width: 50%;
     display: inline-block;
     vertical-align: top;
+    padding: 0;
+}
+.contact{
     display: flex;
 }
 
