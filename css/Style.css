@@ -3,16 +3,15 @@
     background-color: #333;
     color: white;
     padding: 0;
-    position: relative;
+    position: fixed;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:ubuntu ;
     flex: 0%;
     font-size: 2rem;   
     box-sizing:border-box;
     width: 100%;
     overflow: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    z-index: 9999;
 }
 .navbar a{
     color: white;
@@ -57,12 +56,15 @@ html{
     height: auto;
     
 }
-.contact{
+#about{
     display: flex;
-    margin: 10px;
-    padding: 10px;
+    
     box-sizing: border-box;
     border: 10px;
+}
+.main-body{
+    margin-top: 5rem;
+    position: absolute;
 }
 
 ::-webkit-scrollbar{
@@ -73,4 +75,32 @@ html{
 }
 ::-webkit-scrollbar-track{
     background-color: #333;
+}
+.portfolio{
+    display: flex;
+    background-color: rgb(rgb(0, 255, 157), rgba(0, 128, 0, 0.877), rgb(0, 255, 157));
+}
+.portfolio div  p{
+    margin: 2px;
+    padding: 2px;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: white;
+    
+}
+.portfolio div img{
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+
+}
+.portfolio div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 2px;
+    border: 1rem solid black;
 }
