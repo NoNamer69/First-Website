@@ -11,6 +11,7 @@
     box-sizing:border-box;
     width: 100%;
     overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .navbar a{
@@ -42,18 +43,19 @@ html{
 .textoftroll{
     color: white;
     font-size: 2rem;
-    text-align: justify;
-    margin: 1rem;  
-    width: 50%;
+    text-align: justify; 
+    margin: 5%;
     display: inline-block;
-    justify-content: right;
-    padding: 20%;
+    justify-content: center;
+    padding: 0;
+    
 }
 .trollimage {
-    width: 50%;
+    width: 50vw;
     display: inline-block;
     vertical-align: top;
-    padding: 0;
+    height: auto;
+    
 }
 .contact{
     display: flex;
